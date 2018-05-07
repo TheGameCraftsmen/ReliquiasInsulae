@@ -18,9 +18,9 @@ murmures.UiBuilder = function () {
 test3<br>test4 \
 </div> \
 <div data-title="devTools"> \
-<a href="/src/pages/editor.html" style="float:left; clear: left;">level editor</a><br> \
-<a href="/src/pages/test.html" style="float:left; clear: left;">server benchmark</a><br> \
-<a href="/src/pages/pathfinding.html" style="float:left; clear: left;">pathfinding test page</a><br> \
+<a href="../../src/pages/editor.html" style="float:left; clear: left;">level editor</a><br> \
+<a href="../../src/pages/test.html" style="float:left; clear: left;">server benchmark</a><br> \
+<a href="../../src/pages/pathfinding.html" style="float:left; clear: left;">pathfinding test page</a><br> \
 <select id="levelSelect"></select> \
 <button id="changeLevel">load</button><br> \
 </div> \
