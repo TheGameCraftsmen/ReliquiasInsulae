@@ -1,0 +1,22 @@
+{
+    "name": "ReliquiasInsulae",
+    "version": "0.1.0",
+    "description": "An indie survival game for web browsers.",
+    "keywords": [
+        "game",
+        "survival"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TheGameCraftsmen/ReliquiasInsulae.git"
+    },
+    "contributors": [
+        {
+            "name": "azziliz"
+        },
+        {
+            "name": "thyshimrod"
+        }
+    ]
+}

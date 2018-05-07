@@ -1,0 +1,10 @@
+*.dll
+*.dat
+*.suo
+.scannerwork/*
+.vs/*
+obj/*
+bin/*
+out/*
+log/*
+node_modules/*
