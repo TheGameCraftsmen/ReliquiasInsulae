@@ -20,3 +20,8 @@ label {
 input {
     display: table-cell;
 }
+
+.corridor {
+    width: 4000px;
+    height: 3000px;
+}

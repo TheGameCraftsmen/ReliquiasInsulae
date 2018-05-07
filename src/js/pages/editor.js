@@ -19,11 +19,9 @@ window.onload = function () {
     gameEngine.client.inputHandler.init();
     
     window.addEventListener('tilesetReady', function (e) {
-        gameEngine.client.ws.send(JSON.stringify({ service: 'getLevel' }));
-    }, false);
-    window.addEventListener('engineReceivedFromServer', function (e) {
-        gameEngine.initialize(e.detail);
-        gameEngine.level.build(e.detail.level); // this is mandatory to instanciate mobs from tiles.charId
+        murmures.initGameEngine("");
+        gameEngine.client.uiBuilder.loadDevTools(gameEngine);
+        gameEngine.level.build(JSON.parse(JSON.stringify(gameEngine.level))); // this is mandatory to instanciate mobs from tiles.charId
         gameEngine.client.eventDispatcher.emitEvent('requestHighlight');
         gameEngine.client.eventDispatcher.emitEvent('requestEditorUi');
     }, false);
